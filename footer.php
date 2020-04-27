@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<div class="site-info text-center">
 
-						&copy; Howesyke 2020
+						&copy; Howesyke Farm 2020
 
 					</div><!-- .site-info -->
 
