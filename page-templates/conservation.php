@@ -67,4 +67,6 @@ $container = get_theme_mod('understrap_container_type');
 
 </div><!-- #full-width-page-wrapper -->
 
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/odometer.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/js/odo.js"></script>
 <?php get_footer();
