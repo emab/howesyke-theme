@@ -24,8 +24,8 @@ get_header(); ?>
 					<div class="card">
 						<div class="card-header">Robert Brown</div>
 						<div class="card-body">
-							<p class="card-text">Mobile: <a href="tel:123456789">123456789</a></p>
-							<p class="card-text">Email: <a href="mailto:robert.brown@metalube.co.uk">robert.brown@metalube.co.uk</a></p>
+							<p class="card-text">Mobile: <a href="tel:<?php the_field('rob-mobile') ?>"><?php the_field('rob-mobile') ?></a></p>
+							<p class="card-text">Email: <a href="mailto:<?php the_field('rob-email') ?>"><?php the_field('rob-email') ?></a></p>
 						</div>
 					</div>
 				</div>
@@ -33,8 +33,8 @@ get_header(); ?>
 					<div class="card">
 						<div class="card-header">Helen Brown</div>
 						<div class="card-body">
-							<p class="card-text">Mobile: <a href="tel:123456789">123456789</a></p>
-							<p class="card-text">Email: <a href="mailto:helen@doodlebugz.co.uk">helen@doodlebugz.co.uk</a></p>
+							<p class="card-text">Mobile: <a href="tel:<?php the_field('helen-mobile') ?>"><?php the_field('helen-mobile') ?></a></p>
+							<p class="card-text">Email: <a href="mailto:<?php the_field('helen-email') ?>"><?php the_field('helen-email') ?></a></p>
 						</div>
 					</div>
 				</div>

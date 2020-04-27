@@ -18,7 +18,7 @@ $container = get_theme_mod('understrap_container_type');
 <div class="wrapper" id="full-width-page-wrapper">
 
   <div class="<?php echo esc_attr($container); ?>" id="content">
-    <h1>Conservation</h1>
+    <h1 class="text-center">Conservation</h1>
     <div class="row mt-5">
       <div class="col-6 col-md-3 text-center">
         <p><i class="fa fa-tree fa-2x"></i></p>
