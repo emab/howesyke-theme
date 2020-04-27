@@ -23,25 +23,25 @@ $container = get_theme_mod('understrap_container_type');
       <div class="col-6 col-md-3 text-center">
         <p><i class="fa fa-tree fa-2x"></i></p>
         <p class="odometer" style="font-size: 25pt" id="odometer1">0</p>
-        <input type=hidden id="tree-number" name="tree-number" value="1" />
+        <input type=hidden id="tree-number" name="tree-number" value="<?php the_field('tree-number') ?>" />
         <p>Trees planted in the last 10 years.</p>
       </div>
       <div class="col-6 col-md-3 text-center">
         <p><i class="fa fa-leaf fa-2x"></i></p>
         <p class="odometer" style="font-size: 25pt" id="odometer2">0</p>
-        <input type=hidden id="hedge-number" name="hedge-number" value="1" />
+        <input type=hidden id="hedge-number" name="hedge-number" value="<?php the_field('hedgerow-number') ?>" />
         <p>Miles of hedgerows repaired and replanted.</p>
       </div>
       <div class="col-6 col-md-3 text-center">
         <p><i class="fa fa-repeat fa-2x"></i></p>
         <p class="odometer" style="font-size: 25pt" id="odometer3">0</p>
-        <input type=hidden id="moorland-number" name="moorland-number" value="1" />
+        <input type=hidden id="moorland-number" name="moorland-number" value="<?php the_field('moorland-number') ?>" />
         <p>acres of moorland regenerated.</p>
       </div>
       <div class="col-6 col-md-3 text-center">
         <p><i class="fa fa-bolt fa-2x"></i></p>
         <p style="font-size: 25pt"><span class="odometer" id="odometer4">0</span>kW</p>
-        <input type=hidden id="electric-number" name="electric-number" value="1" />
+        <input type=hidden id="electric-number" name="electric-number" value="<?php the_field('electricity-number') ?>" />
         <p>of electricity produced.</p>
       </div>
     </div>
