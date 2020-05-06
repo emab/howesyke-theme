@@ -11,10 +11,16 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header();
+?>
 
-while ( have_posts() ) :
-	the_post();
-	get_template_part( 'loop-templates/content', 'empty' );
-endwhile;
+<div class="container mt-2">
+	<?php
+	while ( have_posts() ) :
+		the_post();
+		get_template_part( 'loop-templates/content', 'empty' );
+	endwhile;
+	?>
+</div>
 
+<?php
 get_footer();
